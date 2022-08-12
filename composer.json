@@ -1,0 +1,25 @@
+{
+    "name": "zhensoft/sendmail",
+    "description": "真诚软件发送邮件的php的sdk支持阿里云以及普通smtp模式",
+    "homepage": "http://www.wlphp.com",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.0",
+        "phpmailer/phpmailer": "^6.0",
+        "alibabacloud/dm-20151123":"1.0.x"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "mail\\": "src/mail"
+        }
+    },
+    "authors": [
+        {
+            "name": "王磊",
+            "email": "613154514@qq.com",
+            "homepage": "http://www.wlphp.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
